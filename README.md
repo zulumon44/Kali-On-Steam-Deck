@@ -10,9 +10,15 @@ And yes, it can do everyting just about you'd expect it to.
  1 Steam Deck
  1 USB With a Kali Linux Bootable iso
  1 Empty MicroSD Card
+ 1 MicroSD to USB Converter
  1 USB-C to USB-A Hub (or any other way of plugging 2 usb's into a single usb-c port)
- 
 
+### Getting Started
+
+ 1. To begin, use a software such as [Rufus](https://rufus.ie/en/) to create a bootable kali iso on the USB.
+While it is flashing the OS, also check to ensure your MicroSD is empty and exFAT formatted. (other formattings may work, but have not been tested)
+
+ 2. Plug Both the USB and the MicroSD (inside the MicroSD->USB converter) into the USB-C Port. ***THE MicroSD PORT WILL NOT WORK FOR THIS***
 
 
 
@@ -29,4 +35,7 @@ This screenshot shows a quick analysis of the current runtime vs what is expecte
 ### Usability
 
 While the idea of having a Steam Deck to replace a laptop seems like a great idea for increasing portability, it doesn't come without its drawbacks.
-The first major drawback is the lack of a keyboard. I currently use 
+
+The first major drawback is the lack of a keyboard. I currently use [Onboard](https://launchpad.net/onboard) for a general keyboard. While it * *usually* * works great, it can get very tedious using an onscreen keyboard when typing many/longer commands. The keyboard also persists through the lockscreen after suspending the steamdeck, so if you have it positioned in the center of the screen, you will be typing with the lockscreen keyboard and the Onboard keyboard simultaneously. 
+
+Secondly, the 
